@@ -1,0 +1,31 @@
+%opensans-700 {
+  font-family: 'OpenSans-Bold';
+  font-weight: 700;
+}
+
+%opensans-600 {
+  font-family: 'OpenSans-SemiBold';
+  font-weight: 600;
+}
+
+%sfprotext-500 {
+  font-family: 'SFProText-Medium';
+  font-weight: 500;
+}
+
+%opensans-400 {
+  font-family: 'OpenSans-Regular';
+  font-weight: 400;
+}
+
+%sfprodisplay-400 {
+  font-family: 'SFProDisplay-Regular';
+  font-weight: 400;
+}
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}

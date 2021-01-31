@@ -1,0 +1,16 @@
+body {
+  height: 100vh;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.container {
+  max-width: 1260px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  &--big {
+    max-width: 1470px;
+  }
+}

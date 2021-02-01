@@ -165,7 +165,7 @@
     margin-right: 64px;
     width: 521px;
     &__in {
-      padding: 13px 0 13px 16px;
+      padding: 13px 0 15px 16px;
       color: #9E9E9E;
       border-radius: 4px;
       border: 1px solid #BDBDBD;
@@ -427,6 +427,7 @@
   .slick-prev {
     right: 176px;
     top: -3px;
+    z-index: 1;
   }
 
   .slick-next {
